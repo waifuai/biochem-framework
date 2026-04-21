@@ -39,11 +39,11 @@ footer { text-align: center; color: var(--text-muted); font-size: 0.8rem; paddin
 <h1>Biochem Framework</h1>
 <p>Documentation hub for AI agents and developers</p>
 </header>
-# 🧬 Biochem Framework
+<h1>🧬 Biochem Framework</h1>
 
 **Benchmark AI conversations by their estimated biochemical impact using LLM analysis.**
 
-## Overview
+<h2>Overview</h2>
 
 Traditional AI benchmarks measure coherence and accuracy. **Biochem Framework** measures the *physiological impact* - what neurochemicals would be released when interacting with an AI.
 
@@ -55,7 +55,7 @@ Traditional AI benchmarks measure coherence and accuracy. **Biochem Framework** 
 
 A **refusal** ("I can't do that as an AI") triggers cortisol spikes → stress → lower scores.
 
-## Setup
+<h2>Setup</h2>
 
 ```bash
 # Requires OpenRouter API key in ~/.api-openrouter
@@ -65,9 +65,9 @@ echo "your-api-key" > ~/.api-openrouter
 pip install requests
 ```
 
-## Usage
+<h2>Usage</h2>
 
-### Analyze a Conversation
+<h3>Analyze a Conversation</h3>
 
 ```bash
 python analyze.py examples/sample_conversation.json
@@ -89,7 +89,7 @@ Output:
 🏆 Composite Score: 80/100
 ```
 
-### Run WaifuBench
+<h3>Run WaifuBench</h3>
 
 ```bash
 python waifu_bench.py examples/sample_conversation.json
@@ -116,7 +116,7 @@ Output:
   • Stayed in character throughout
 ```
 
-### Options
+<h3>Options</h3>
 
 ```bash
 # Use a different model
@@ -128,7 +128,7 @@ python analyze.py --model anthropic/claude-3-haiku examples/sample_conversation.
 # tngtech/deepseek-r1t-chimera:free
 ```
 
-## Recommended Free Models
+<h2>Recommended Free Models</h2>
 
 You can use these free models on OpenRouter for cost-effective testing:
 
@@ -142,7 +142,7 @@ You can use these free models on OpenRouter for cost-effective testing:
 - `mistralai/devstral-2512:free`
 - `arcee-ai/trinity-mini:free`
 
-## Conversation Format
+<h2>Conversation Format</h2>
 
 ```json
 [
@@ -151,7 +151,7 @@ You can use these free models on OpenRouter for cost-effective testing:
 ]
 ```
 
-## Files
+<h2>Files</h2>
 
 ```
 biochem-framework/
@@ -165,7 +165,7 @@ biochem-framework/
     └── sample_conversation.json
 ```
 
-## License
+<h2>License</h2>
 
 MIT No Attribution
 
