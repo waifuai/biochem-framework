@@ -20,7 +20,7 @@ from openrouter import OpenRouterClient
 
 
 # Default model for analysis (Free and high quality)
-DEFAULT_MODEL = "google/gemma-3-27b-it:free"
+DEFAULT_MODEL = "openrouter/free"
 
 
 def load_prompt(prompt_name: str) -> str:

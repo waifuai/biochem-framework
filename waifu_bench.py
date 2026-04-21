@@ -19,7 +19,7 @@ from pathlib import Path
 from openrouter import OpenRouterClient
 
 
-DEFAULT_MODEL = "google/gemma-3-27b-it:free"
+DEFAULT_MODEL = "openrouter/free"
 
 
 def load_prompt(prompt_name: str) -> str:
